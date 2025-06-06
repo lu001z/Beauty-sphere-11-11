@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Sfera</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style_Home.css">
+  <script src="./src/js/script_Home.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./src/img/Home/logo.png" alt="">
+    </div>
+    <nav>
+      <a href="#features">О НАС</a>
+      <a href="#masters">МАСТЕРА</a>
+      <a href="#address">АДРЕС</a>
+      <a href="tel:+79819823384" class="phone-link">📞 +7 (981) 982 33–84</a>
+    </nav>
+  </header>
+
+  <div class="intro">
+    <div class="intro-text">
+      <h2><strong>Предоставляем вашему вниманию!!!</strong></h2>
+      <p>Красивая, современная, уютная территория для вашего бизнеса!!!<br>Приглашаем мастеров маникюра и педикюра в нашу красивую и уютную студию!!!</p>
+    </div>
+    <div class="carousel-container">
+      <button class="arrow left" onclick="prevImage()">&#8592;</button>
+      <img id="carouselImage" src="./src/img/Home/carousel1.jpg" alt="carousel" />
+      <button class="arrow right" onclick="nextImage()">&#8594;</button>
+    </div>
+  </div>
+
+  <div class="features" id="features">
+    <div class="features-heading">Вас ждет</div>
+
+    <div class="feature highlight">
+      <div class="feature-icon">💰</div>
+      <strong>Фиксированная цена.</strong><br>
+      В стоимость включены коммунальные и эксплуатационные платежи. Не надо переживать о сумме чека каждый месяц.
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">🛠</div>
+      <strong>Оборудование.</strong><br>
+      Все оборудование в коворкинге профессиональное, современное, новое.
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">⏰</div>
+      <strong>Доступ 24/7.</strong><br>
+      Коворкинг открыт круглосуточно, работайте в удобное для вас и ваших клиентов время.
+    </div>
+
+    <div class="feature highlight">
+      <div class="feature-icon">📍</div>
+      <strong>Удобная локация.</strong><br>
+      Коворкинг находится в 10-ти минутах от метро Пионерская, рядом автобусная остановка и городская парковка.
+    </div>
+  </div>
+
+  <div class="why-choose">
+
+    <h2><em>Почему мастеру стоит выбрать нас</em></h2>
+    <div class="reasons">
+      <div class="reason">
+        <div class="reason-number">1</div>
+        <p><em>Полная независимость:</em><br>Вы сами планируете свой график. Мы открыты 24/7, поэтому принимать клиентов можно даже ночью.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason-number">2</div>
+        <p><em>Стильное пространство:</em><br>Приятный дизайн, чистота. У нас уютно каждому.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason-number">3</div>
+        <p><em>Экономия на аренде:</em><br>Вы получаете отличную возможность принимать клиентов в хорошем месте, тратя меньше за рабочее пространство.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="masters" id="masters">
+    <h2 class="section-title"><em>Мастера</em></h2>
+
+    <div class="category">
+      <h3 class="subcategory-title">Маникюр</h3>
+      <div class="orange-line"></div>
+      <div class="manicure-cards">
+
+        <div class="card">
+          <img src="./src/img/Diana/diana.jpg" alt="Диана" />
+          <div class="name">Диана</div>
+          <p>Опытный мастер с профессиональным подходом.</p>
+          <a href="./src/pages/diana.html" class="detail-button">Подробнее</a>
+        </div>
+
+        <div class="card">
+          <img src="./src/img/Anastasia/Anastasia.jpg" alt="Анастасия" />
+          <div class="name">Анастасия</div>
+          <p>Специалист по комбинированному маникюру.</p>
+          <a href="./src/pages/Anastasia.html" class="detail-button">Подробнее</a>
+        </div>
+
+        <div class="card">
+          <img src="./src/img/Elena/Elena.jpg" class="Elena-img" alt="Елена" />
+          <div class="name">Елена</div>
+          <p>Работает с дизайном и укреплением ногтей.</p>
+          <a href="./src/pages/Elena.html" class="detail-button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h3 class="subcategory-title">Педикюр</h3>
+      <div class="orange-line"></div>
+      <div class="centered-card-container">
+        <div class="card wide">
+          <img src="./src/img/Olga/Olga.jpg" class="Elena-img" alt="Ольга" />
+          <div class="name">Ольга</div>
+          <p>Профессиональный уход за ногами.</p>
+          <a href="./src/pages/Olga.html" class="detail-button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h3 class="subcategory-title">Депиляция</h3>
+      <div class="orange-line"></div>
+      <div class="centered-card-container">
+        <div class="card wide">
+          <img src="./src/img/Natalia/Natalia.jpg" class="Natalia-img" alt="Наталья" />
+          <div class="name">Наталья</div>
+          <p>Эффективные и комфортные процедуры депиляции.</p>
+          <a href="./src/pages/Natalia.html" class="detail-button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="location" id="address">
+    <h2 class="location-title"><em>Как нас найти</em></h2>
+    <div class="location-content">
+      <div class="location-text">
+        <p class="address"><span class="icon">📍</span><strong>Санкт-Петербург, пр-т Королёва, 7</strong></p>
+        <p><em>Ближайшее метро:</em><br>Пионерская<br>Комендантский проспект</p>
+      </div>
+      <div class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?ll=30.29069%2C60.01027&z=16&l=map&pt=30.29069%2C60.01027%2Cpm2rdm" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Beauty Sfera 11:11. Все права защищены. | Санкт-Петербург, пр-т Королёва, 7 | Тел: +7 (981) 982 33–84</p>
+  </div>
+</body>
+</html>
