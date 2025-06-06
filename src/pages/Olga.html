@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Диана - Beauty Sfera</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style_Olga.css">
+  <script src="../js/script_Diana.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/Home/logo.png" alt="">
+        </div>
+        <nav>
+            <a href="../../Home.html#about">О НАС</a>
+            <a href="../../Home.html#masters">МАСТЕРА</a>
+            <a href="../../Home.html#address">АДРЕС</a>
+            <a href="tel:+79819823384" class="phone-link">📞 +7 (981) 982 33–84</a>
+        </nav>
+    </header>
+    <section class="master-section">
+        <div class="photo-placeholder">
+            <img src="../img/Olga/Olga.jpg" alt="Ольга">
+        </div>
+        <div class="master-info">
+            <h2>Ольга</h2>
+            <div class="buttons">
+                <a href="#about" class="button dark">Обо мне</a>
+                <a href="#services" class="button orange">Услуги</a>
+                <a href="#portfolio" class="button orange">Портфолио</a>
+                <a href="#booking" class="button dark">Запись</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="orange-line"></div>
+
+    <section class="about-section" id="about">
+        <h2 class="about-title">Обо мне</h2>
+        <div class="about-box">
+            <p>🌿 Добрый день! Меня зовут Ольга, я профессиональный мастер педикюра 👣 и с радостью помогу вашим ножкам стать ухоженными, здоровыми и красивыми! <br><br>
+
+            👠 Ваши стопы — основа комфорта и уверенности в каждом шаге. Если вы чувствуете усталость, сухость или дискомфорт, самое время позаботиться о них по-настоящему. <br><br>
+
+            💅 В своей работе я использую только качественные, проверенные материалы и современные методики: <br>
+            - классический педикюр <br>
+            - аппаратный педикюр <br>
+            - SPA-уход для глубокого увлажнения и релаксации <br>
+            - обработка натоптышей, мозолей и трещин <br>
+            - уход за ногтевой пластиной и кутикулой <br><br>
+
+            🌸 Каждая процедура проходит в уютной и стерильной обстановке, с максимальным вниманием к гигиене и безопасности. <br><br>
+
+            ✨ Мои клиенты ценят меня за аккуратность, профессионализм и индивидуальный подход к каждому! <br><br>
+
+            🦶 Хотите подарить своим ножкам отдых и здоровье?  <br>Записывайтесь заранее — вместе мы подберём удобное время для вашего визита. <br><br>
+
+            📲 Связаться со мной просто: звоните или пишите в WhatsApp, Авито и по номеру телефона. <br><br>
+
+            Пусть ваши ноги будут красивыми, здоровыми и готовыми к любым приключениям! 👣💖 <br><br>
+
+            Жду вас на процедуру педикюра, чтобы подарить вашим стопам заботу и комфорт! 🌷✨ </p>
+        </div>
+    </section>
+
+
+    <div class="orange-line"></div>
+
+    <section id="services">
+        <h2 class="about-title">Услуги</h2>
+        <div class="services-center-wrapper">
+            <img src="../img/Olga/price_list.jpg" alt="прайс-лист" class="services-image" />
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="about-title">Портфолио</h2>
+        <div class="portfolio-wrapper">
+            <button class="arrow left" onclick="prevSlide()">&#8592;</button>
+            <div class="carousel-viewport">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="portfolio-item"><img src="../img/Olga/port1.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port2.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port3.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port4.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port5.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port6.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port7.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port8.jpg" alt=""></div>
+                    <div class="portfolio-item"><img src="../img/Olga/port9.jpg" alt=""></div>
+                </div>
+            </div>
+            <button class="arrow right" onclick="nextSlide()">&#8594;</button>
+        </div>
+    </section>
+ 
+    <section id="booking">
+        <h2>Запись</h2>
+        <div class="booking-cards">
+            <div class="booking-card">
+                <div class="booking-icon-wrapper">
+                    <img src="../icons/Diana/phone.png" alt="Телефон">
+                </div>
+                <button class="booking-button">
+                    <a href="tel:+79817945083">+7 (988) 912 75-77</a>
+                </button>
+            </div>
+
+            <div class="booking-card">
+                <div class="booking-icon-wrapper">
+                    <img src="../icons/Diana/avito.png" alt="Авито">
+                </div>
+                <button class="booking-button">
+                    <a href="https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/manikyur_naraschivanie_na_pionerskoy_4261366222?utm_campaign=native&utm_medium=item_page_ios&utm_source=soc_sharing_seller" target="_blank" rel="noopener noreferrer">Авито</a>
+                </button>
+            </div>
+
+            <div class="booking-card">
+                <div class="booking-icon-wrapper">
+                    <img src="../icons/Diana/telegramm.png" alt="Телеграмм">
+                </div>
+                <button class="booking-button">
+                    <a href="https://t.me/diaNAILSspb" target="_blank" rel="noopener noreferrer">Телеграмм</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2025 Beauty Sfera 11:11. Все права защищены. | Санкт-Петербург, пр-т Королёва, 7 | Тел: +7 (981) 982 33–84</p>
+    </div>
+</body>
+</html>
